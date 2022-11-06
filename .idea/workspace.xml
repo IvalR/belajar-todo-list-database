@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4d03f7-1ef9-44b1-9547-68b5c126e909" name="Changes" comment="" />
+    <list default="true" id="db4d03f7-1ef9-44b1-9547-68b5c126e909" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/repository/TodoListRepositoryImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AplikasiTodoListV2OOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AplikasiTodoListV2OOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/TodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TodoListRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TodoListRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/TodoListServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/TodoListServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/service/TodoListServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/service/TodoListServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/view/TodoListViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/view/TodoListViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AplikasiTodoListV2OOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AplikasiTodoListV2OOP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/TodoListRepositoryImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/TodoListRepositoryImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/service/TodoListServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/service/TodoListServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/view/TodoListViewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/view/TodoListViewTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/DatabaseUtil.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +46,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2H7nrpP5oWjNh1ke0gs2LGt3IkY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,36 +55,76 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Project/MVN/java-todo-list"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DatabaseUtilTest.testConnection">
-    <configuration name="DatabaseUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AplikasiTodoListV2OOP">
+    <configuration name="AplikasiTodoListV2OOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AplikasiTodoListV2OOP" />
+      <module name="java-todo-list" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-todo-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.DatabaseUtilTest" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImpTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseUtilTest.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListRepositoryImpTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-todo-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.DatabaseUtilTest" />
-      <option name="METHOD_NAME" value="testConnection" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImpTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImpTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-todo-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImpTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImpTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-todo-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImpTest" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,8 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseUtilTest.testConnection" />
-        <item itemvalue="JUnit.DatabaseUtilTest" />
+        <item itemvalue="Application.AplikasiTodoListV2OOP" />
+        <item itemvalue="JUnit.TodoListRepositoryImpTest.testGetAll" />
+        <item itemvalue="JUnit.TodoListRepositoryImpTest.testRemove" />
+        <item itemvalue="JUnit.TodoListRepositoryImpTest.testAdd" />
+        <item itemvalue="JUnit.TodoListRepositoryImpTest" />
       </list>
     </recent_temporary>
   </component>
@@ -88,5 +150,16 @@
       <updated>1667645191496</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
